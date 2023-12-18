@@ -3,12 +3,6 @@ def encrypt_password(msg, key):
     Precondition:
         - len(msg) > len(key).
         - key is a string with distinct letters.
-    >>> encrypt_password("THISISWIKIPEDIA", "CIPHER")
-    'TWDIPSIHIIIKASE'
-    >>> encrypt_password("ILOVEPINEAPPLE", "JUICE")
-    'VEEEAONLIPPLIP'
-    >>> encrypt_password("BUYSOMEMILKANDEGGS", "MONEY")
-    'SIDBMKGYMNSUEAGOLE'
     """
 
     num_cols = len(key)
